@@ -217,12 +217,16 @@ padding: 20px;
 .main-col-3 {
     margin-right:300px ;
     width: 1300px;
-    height: 1050px;
+    height: 1080px;
     text-align: center;
 }
 
 .main-col-3 h3 {
     text-decoration: underline;
+}
+
+.main-col-3 a {
+    color: #386641;
 }
 
 .main-col-3 p {
