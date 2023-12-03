@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web | Formulario </title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Daniel Núñez</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Daniel Núñez</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">Sobre Mi</a>
+            <a href="cv.html">Curriculum</a>
+            <a href="form.html">Contactame</a>
+            <a href="project.html">Sobre el proyecto</a>
+
+        </ul>
+    </nav>
+    <!-- Leftbar & Rightbar -->
+    <section>
+        <div class="left-section">
+            <h3>Menu</h3>
+            <p><a href="https://www.google.es">Google</a></p>
+            <p><a href="https://www.duckduckgo.com">DuckDuckGo</a></p>
+            <p><a href="https://www.yahoo.com">Yahoo</a></p>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <form>
+        <div class="card">
+            <h1>CONTÁCTAME</h1>
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Nombre" id="nombre"><br><br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" placeholder="Apellidos" id="apellidos"><br><br>
+            <label for="mail">Correo Electronico</label>
+            <input type="radio" name="hm" value="h" id="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="hm" value="m" id="mujer">
+
+            <h1>INICIO DE SESIÓN</h1>
+            <label for="user">User</label><br><br>
+            <input type="text" placeholder="User" id="user"><br><br>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Correo Electronico" id="mail"><br><br>
+            <label for="passwd">Email</label>
+            <input type="password" placeholder="Contraseña" id="passwd"><br><br>
+            <h1>DATOS OPCIONALES</h1>
+            <label for="languages">Idiomas</label><br>
+            <input type="checkbox" id="languages" name="lan1" value="Español"><label for="lan1">Español</label>
+            <input type="checkbox" id="languages" name="lan2" value="Inglés"><label for="lan2">Inglés</label>
+            <input type="checkbox" id="languages" name="lan3" value="Alemán"><label for="lan3">Alemán</label>
+            <input type="checkbox" id="languages" name="lan4" value="Francés"><label for="lan4">Francés</label>
+            <input type="checkbox" id="languages" name="lan5" value="Ruso"><label for="lan5">Ruso</label>
+            <br>
+            <p> Color de preferencia:
+                <input type="color" name="color">
+            </p><br>
+            <p>Ganancias Mensuales</p>
+            <select name="Elija" id="menu">
+                <option value="0€ - 1200€">0€ - 1200€</option>
+                <option value="1200€ - 2000€">1200€ - 2000</option>
+                <option value="2000€ - 2500€">2000€ - 2500€</option>
+                <option value="2500€ -3000">2500€ - 3000€</option>
+                <option value="3000€ - 3500€">3000€ - 3500€</option>
+                <option value="Más">Más</option>
+            </select>
+            <input type="range">
+            <p>Busca Algo</p>
+            <input type="search">
+            <input type="file">
+        </div>
+    </form>
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> INFORMACIÓN SOBRE ESTA WEB </h3>
+                <p> Trabajo de Aplicaciones Web - 2ºSMR <br>
+                    Hecho por Daniel Núñez</p>
+            </div>
+
+            <div class="footer-col-2">
+                <h3>ENLACES</h3>
+                <ul>
+                    <li>
+                        <a href="CV - Daniel Núñez.pdf">CV Impreso</a>
+                        <a href="https://www.gmail.com">Email</a>
+                        <a href="formulary.html">Contacto</a>
+                        <a href="https://aulavirtual3.educa.madrid.org/ies.villablanca.madrid">Aula Virtual</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <section class="down-footer">
+        <p> Copyright | Daniel Nuñez 2ºSMRB</p>
+    </section>
+
+
+
+
+</body>
+
+</html>
